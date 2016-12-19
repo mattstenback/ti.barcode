@@ -272,7 +272,7 @@ static zxing::DecodeHints decodeHints;
                                                    showRectangle:[TiUtils boolValue:@"showRectangle" properties:args def:YES]
                                                         keepOpen:keepOpen
                                                   useFrontCamera:useFrontCamera
-                                                        OneDMode:NO
+                                                        OneDMode:YES
                                                      withOverlay:[overlayProxy view]];
     
     [controller setTorch:led];
